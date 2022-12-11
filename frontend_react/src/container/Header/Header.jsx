@@ -26,7 +26,6 @@ const Header = () => {
             >
                 <div className='app__header-badge'>
                     <div className='badge-cmp app__flex'>
-                        {/* <span>emoji</span> */}
                         <div style={{ marginLeft: 20 }}>
                             <p className='p-text'>Hello, I am</p>
                             <h1 className='head-text'>Larry Austin Iyere</h1>
@@ -44,9 +43,7 @@ const Header = () => {
                 transition={{ duration: 0.5, delayChildren: 0.5 }}
                 className='app__header-img'
             >
-                {/* <img src={images.emoji} alt='profile_bg' /> */}
-                <h1 className='head-text'> Modern Software <br /> <span> Developement Agency </span>
-                </h1>
+                <h1 className='head-text'> <span>Au</span>thentic <span> Da</span>zzling <span>Ry</span>ebuck </h1>
                 <motion.img
                     whileInView={{ scale: [0, 1] }}
                     transition={{ duration: 1, ease: 'easeInOut' }}
