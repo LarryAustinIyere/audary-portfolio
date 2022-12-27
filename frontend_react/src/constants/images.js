@@ -17,6 +17,8 @@ import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
+import styledcomponents from '../assets/styledcomponents.png';
+import next from '../assets/next.png';
 
 import about01 from '../assets/about01.jpg';
 import about02 from '../assets/about02.jpg';
@@ -49,11 +51,13 @@ export default {
     html,
     javascript,
     mu5,
+    next,
     node,
     python,
     react,
     redux,
     sass,
+    styledcomponents,
     typescript,
     vue,
     about01,
