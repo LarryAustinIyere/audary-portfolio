@@ -9,8 +9,8 @@ export default {
             type: 'string',
         },
         {
-            name: 'company',
-            title: 'Company',
+            name: 'country',
+            title: 'Country',
             type: 'string',
         },
         {

@@ -36,12 +36,12 @@ const Testimonial = () => {
             {testimonials.length && (
                 <>
                     <div className='app__testimonial-item app__flex'>
-                        <img src={urlFor(test.imageurl)} alt={test.name} />
+                        {/* <img src={urlFor(test.imageurl)} alt={test.name} /> */}
                         <div className='app__testimonial-content'>
                             <p className='p-text'>{test.feedback}</p>
                             <div>
                                 <h4 className='bold-text'>{test.name}</h4>
-                                <h5 className='p-text'>{test.company}</h5>
+                                <h5 className='p-text'>{test.country}</h5>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ const Testimonial = () => {
                         transition={{ duration: 0.5, type: 'tween' }}
                         key={brand._id}
                     >
-                        <img src={urlFor(brand.imgUrl)} alt={brand.name} />
+                        {/* <img src={urlFor(brand.imgUrl)} alt={brand.name} /> */}
                     </motion.div>
                 ))}
             </div>

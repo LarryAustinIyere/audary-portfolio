@@ -19,6 +19,7 @@ import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 import styledcomponents from '../assets/styledcomponents.png';
 import next from '../assets/next.png';
+import tailwind from '../assets/tailwind.png'
 
 import about01 from '../assets/about01.jpg';
 import about02 from '../assets/about02.jpg';
@@ -59,6 +60,7 @@ export default {
     sass,
     styledcomponents,
     typescript,
+    tailwind,
     vue,
     about01,
     about02,
