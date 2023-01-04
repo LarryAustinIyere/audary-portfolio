@@ -59,7 +59,7 @@
     text-transform: capitalize;
 
     span {
-        color: var(--secondary-color);
+        color: #8d8036;
     }
 
     @media screen and (min-width: 2000px) {
@@ -126,11 +126,20 @@
         }
 
         &:hover {
-            background-color: var(--secondary-color);
-            border-color: var(--secondary-color);
+            background-color: black;
+            border-color: #8d8036;
 
             svg {
-                color: var(--white-color);
+                color: #8d8036;
+            }
+        }
+
+        &:focus {
+            background-color: black;
+            border-color: #8d8036;
+
+            svg {
+                color: #8d8036;
             }
         }
 
